@@ -3,6 +3,19 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1">
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.querySelector('button.Mobile-bar-menu');
+    if (menuButton && !menuButton.getAttribute('aria-label')) {
+      menuButton.setAttribute('aria-label', 'Open mobile menu');
+    }
+
+    const closeButton = document.querySelector('button.Mobile-overlay-close');
+    if (closeButton && !closeButton.getAttribute('aria-label')) {
+      closeButton.setAttribute('aria-label', 'Close mobile menu');
+    }
+  });
+</script>
 
     {squarespace-headers}
   </head>
