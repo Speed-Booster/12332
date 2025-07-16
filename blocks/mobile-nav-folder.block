@@ -1,17 +1,17 @@
 {.repeated section items}
   {.folder?}{.index?}{.or}
     <div class="Mobile-overlay-folder" data-controller-folder="{collection.urlId}">
-      <button class="Mobile-overlay-folder-item Mobile-overlay-folder-item--toggle" data-controller-folder-toggle="{collection.urlId}"  aria-label="Open {collection.navigationTitle} section"  >
+      <button class="Mobile-overlay-folder-item Mobile-overlay-folder-item--toggle" data-controller-folder-toggle="{collection.urlId}">
         <span class="Mobile-overlay-folder-item--toggle-label">{localizedStrings.back}</span>
       </button>
       {.repeated section items}
         {.collection?}
-          <a href="{collection.fullUrl}" class="Mobile-overlay-folder-item"   >
+          <a href="{collection.fullUrl}" class="Mobile-overlay-folder-item">
             {collection.navigationTitle}
           </a>
         {.or}
           {.section externalLink}
-            <a href="{url}" class="Mobile-overlay-folder-item" aria-label="{title}" >
+            <a href="{url}" class="Mobile-overlay-folder-item">
               {title}
             </a>
           {.end}
