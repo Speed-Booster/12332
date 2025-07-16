@@ -11,7 +11,7 @@
           </a>
         {.or}
           {.section externalLink}
-            <a href="{url}" class="Mobile-overlay-folder-item"  >
+            <a href="{url}" class="Mobile-overlay-folder-item" aria-label="{title}" >
               {title}
             </a>
           {.end}
