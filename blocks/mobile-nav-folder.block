@@ -6,12 +6,12 @@
       </button>
       {.repeated section items}
         {.collection?}
-          <a href="{collection.fullUrl}" class="Mobile-overlay-folder-item"  aria-label="{title}" >
+          <a href="{collection.fullUrl}" class="Mobile-overlay-folder-item"   >
             {collection.navigationTitle}
           </a>
         {.or}
           {.section externalLink}
-            <a href="{url}" class="Mobile-overlay-folder-item">
+            <a href="{url}" class="Mobile-overlay-folder-item" aria-label="{title}" >
               {title}
             </a>
           {.end}
