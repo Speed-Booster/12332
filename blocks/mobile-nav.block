@@ -9,7 +9,7 @@
             </a>
           {.end}
         {.or}
-          <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder" data-controller-folder-toggle="{collection.urlId}"  aria-label="Open {collection.navigationTitle} section" >
+          <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder" data-controller-folder-toggle="{collection.urlId}" aria-label="Open {collection.navigationTitle} section" >
             <span class="Mobile-overlay-nav-item--folder-label">{collection.navigationTitle}</span>
           </button>
         {.end}
@@ -22,8 +22,8 @@
       {.end}
     {.end}
     {.section externalLink}
-      <a href="{url}"{.section newWindow} target="_blank"{.end} class="Mobile-overlay-nav-item"  aria-label="{title}" >
-       {title}
+      <a href="{url}"{.section newWindow} target="_blank"{.end} class="Mobile-overlay-nav-item">
+       aria-label="{mobile menu}"
       </a>
     {.end}
   {.end}
