@@ -179,25 +179,7 @@
     </div>
 
     <squarespace:script src="site-bundle.js" combo="false" />
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const menuButton = document.querySelector('button.Mobile-bar-menu');
-    if (menuButton && !menuButton.getAttribute('aria-label')) {
-      menuButton.setAttribute('aria-label', 'Open mobile menu');
-    }
 
-    const closeButton = document.querySelector('button.Mobile-overlay-close');
-    if (closeButton && !closeButton.getAttribute('aria-label')) {
-      closeButton.setAttribute('aria-label', 'Close mobile menu');
-    }
-
-    document.querySelectorAll('a[href="https://www.pjsofhouston.com/ics"]').forEach(link => {
-      if (!link.textContent.trim()) {
-        link.setAttribute('aria-label', 'ICS Cleaning Services');
-      }
-    });
-  });
-</script>
     {squarespace-footers}
 
   </body>
