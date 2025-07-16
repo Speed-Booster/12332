@@ -22,7 +22,8 @@
     });
   });
 </script>
-    <link rel="preload" href="https://cdn.jsdelivr.net/gh/Speed-Booster/supreme-winner@main/lazysizes.min.js" as="script"><script src="https://cdn.jsdelivr.net/gh/Speed-Booster/supreme-winner@main/lazysizes.min.js"></script>
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh//bcwv/w@main/lazyload.5.0.5.js" as="script"><script src="https://cdn.jsdelivr.net/gh//bcwv/w@main/lazyload.5.0.5.js" type="text/javascript"></script>
+<link rel="preload" href="https://cdn.jsdelivr.net/gh/bcwv/w@main//lazysizes.5.0.22.js" as="script"><script src="https://cdn.jsdelivr.net/gh/bcwv/w@main//lazysizes.5.0.22.js" type="text/javascript"></script>
 
     {squarespace-headers}
 
