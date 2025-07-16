@@ -22,8 +22,8 @@
       {.end}
     {.end}
     {.section externalLink}
-      <a href="{url}"{.section newWindow} target="_blank"{.end} class="Mobile-overlay-nav-item">
-       
+      <a href="{url}"{.section newWindow} target="_blank"{.end} class="Mobile-overlay-nav-item"  aria-label="{title}" >
+       {title}
       </a>
     {.end}
   {.end}
