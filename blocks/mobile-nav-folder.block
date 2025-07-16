@@ -6,7 +6,7 @@
       </button>
       {.repeated section items}
         {.collection?}
-          <a href="{collection.fullUrl}" class="Mobile-overlay-folder-item">
+          <a href="{collection.fullUrl}" class="Mobile-overlay-folder-item"  aria-label="{title}" >
             {collection.navigationTitle}
           </a>
         {.or}
