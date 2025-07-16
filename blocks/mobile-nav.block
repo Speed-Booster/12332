@@ -23,7 +23,7 @@
     {.end}
     {.section externalLink}
       <a href="{url}"{.section newWindow} target="_blank"{.end} class="Mobile-overlay-nav-item">
-       aria-label="{mobile menu}"
+       aria-label="{title}"
       </a>
     {.end}
   {.end}
